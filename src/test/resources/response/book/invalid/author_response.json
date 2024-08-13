@@ -1,0 +1,7 @@
+{
+  "code": "comm.validation.error",
+  "message": "Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.library.management.maids.model.Book> com.library.management.maids.controller.BookController.createBook(com.library.management.maids.model.Book) throws com.library.management.maids.exception.GeneralException: [Field error in object 'book' on field 'author': rejected value []; codes [NotBlank.book.author,NotBlank.author,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [book.author,author]; arguments []; default message [author]]; default message [must not be blank]] ",
+  "httpStatus": "BAD_REQUEST",
+  "refId": "1",
+  "timestamp": "2024-05-12T17:42:38.045709700Z"
+}

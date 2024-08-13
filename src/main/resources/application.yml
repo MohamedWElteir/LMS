@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: maids
+
+# ====================================
+# - Database Configuration
+# ====================================
+  jpa:
+    properties:
+      hibernate:
+        format-sql: false
+    show-sql: true
+server:
+  port: 8081
